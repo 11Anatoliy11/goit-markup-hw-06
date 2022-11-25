@@ -309,7 +309,7 @@ ul {
   align-items: center;  
   display: flex;
   top: 76%;
-  color: #eeeeee;
+  color: var(--gray);
   content: "";
   background: rgba(47, 48, 58, 0.8);
 }
