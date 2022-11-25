@@ -462,24 +462,26 @@
         <h3 class="messenger">ПІДПИШИТЬСЯ НА РОЗСИЛКУ</h3>
         <div class="footer-mailto">
           <div class="footer-form">
-            <label for="mail"
-                   class="form-text"></label>
+            <label for="mail"></label>
             <input type="email"
                    name="mail"
-                   id="mail"
+                   id="email"
                    placeholder="E-mail">
           </div>
           <button type="submit"
-                  class="footer-button">Підписатися
+                  class="footer-button">
+                  Підписатися
+                  <svg class="footer-icon">
+                    <use href="./imges/symbol-defs.svg#icon-icon-send"></use>
+                  </svg>
           </button>
-          <svg class="footer-icon">
-            <use href="./imges/symbol-defs.svg#icon-icon-send"></use>
-          </svg>
+          
         </div>
 
       </div>
     </div>
   </footer>
+
   <div class="backdrop is-hidden"
        data-modal>
     <div class="modal">
@@ -528,8 +530,8 @@
           <label class="form-text">
             <input class="checkbox"
                    type="checkbox"
-                   name=""
-                   id="">
+                   name="checkbox"
+                   id="checkbox">
             <svg class="checkbox-icon">
               <use href="./imges/symbol-defs.svg#icon-icon-check"></use>
             </svg>
@@ -540,17 +542,6 @@
             </a>
           </label>
         </div>
-
-        <!-- <label class="form__checkbox-field">
-          <input type="checkbox" name="agree" class="form__checkbox-input" value="yes">
-          <span class="form__checkbox-icon"></span>
-          <span class="form__checkbox-label">Соглашаюсь с рассылкой и принимаю <a class="form__contract-link"
-          href="https://www.lipsum.com" target="_blank">Условия договора</a> </span>
-          </label> -->
-
-
-
-
         <button type="submit"
                 class="button-form">Відправити</button>
       </form>

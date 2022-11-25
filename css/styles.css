@@ -564,17 +564,15 @@ ul {
 
 
 .footer-icon {
-  position: absolute;
+  margin-left: 10px;
   width: 24px;
   height: 24px;
-  margin: 13px 28px 13px 10px;
-  top: 31%;
-  display: inline-block;
   fill: var(--white);
-  left: 89%;
 }
 
 .footer-button {
+  display: flex;
+  align-items: center;
   width: 200px;
   height: 50px;
   margin: auto;
